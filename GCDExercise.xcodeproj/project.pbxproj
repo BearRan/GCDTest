@@ -16,6 +16,8 @@
 		18BCF2851C92B0CB0093B88D /* GCDExerciseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BCF2841C92B0CB0093B88D /* GCDExerciseTests.m */; };
 		18BCF2901C92B0CB0093B88D /* GCDExerciseUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BCF28F1C92B0CB0093B88D /* GCDExerciseUITests.m */; };
 		18BCF29F1C92BDAA0093B88D /* GCDImageTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BCF29E1C92BDAA0093B88D /* GCDImageTest.m */; };
+		18BCF2A21C9657460093B88D /* NsThreadTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BCF2A11C9657460093B88D /* NsThreadTest.m */; };
+		18BCF2A51C965BB90093B88D /* GCDTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BCF2A41C965BB90093B88D /* GCDTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +56,10 @@
 		18BCF2911C92B0CB0093B88D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18BCF29D1C92BDAA0093B88D /* GCDImageTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDImageTest.h; sourceTree = "<group>"; };
 		18BCF29E1C92BDAA0093B88D /* GCDImageTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDImageTest.m; sourceTree = "<group>"; };
+		18BCF2A01C9657460093B88D /* NsThreadTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NsThreadTest.h; sourceTree = "<group>"; };
+		18BCF2A11C9657460093B88D /* NsThreadTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NsThreadTest.m; sourceTree = "<group>"; };
+		18BCF2A31C965BB90093B88D /* GCDTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDTest.h; sourceTree = "<group>"; };
+		18BCF2A41C965BB90093B88D /* GCDTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +116,10 @@
 				18BCF2711C92B0CB0093B88D /* ViewController.m */,
 				18BCF29D1C92BDAA0093B88D /* GCDImageTest.h */,
 				18BCF29E1C92BDAA0093B88D /* GCDImageTest.m */,
+				18BCF2A01C9657460093B88D /* NsThreadTest.h */,
+				18BCF2A11C9657460093B88D /* NsThreadTest.m */,
+				18BCF2A31C965BB90093B88D /* GCDTest.h */,
+				18BCF2A41C965BB90093B88D /* GCDTest.m */,
 				18BCF2731C92B0CB0093B88D /* Main.storyboard */,
 				18BCF2761C92B0CB0093B88D /* Assets.xcassets */,
 				18BCF2781C92B0CB0093B88D /* LaunchScreen.storyboard */,
@@ -275,9 +285,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18BCF2A51C965BB90093B88D /* GCDTest.m in Sources */,
 				18BCF2721C92B0CB0093B88D /* ViewController.m in Sources */,
 				18BCF26F1C92B0CB0093B88D /* AppDelegate.m in Sources */,
 				18BCF29F1C92BDAA0093B88D /* GCDImageTest.m in Sources */,
+				18BCF2A21C9657460093B88D /* NsThreadTest.m in Sources */,
 				18BCF26C1C92B0CB0093B88D /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
